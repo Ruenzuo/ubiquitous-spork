@@ -1,0 +1,9 @@
+dependencies:
+  override:
+    - bundle install
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - ./sync

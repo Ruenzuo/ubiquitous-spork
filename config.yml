@@ -1,0 +1,13 @@
+# config.yml
+---
+master_repo: https://github.com/CocoaPods/Specs.git
+mirror:
+  specs_push_url: git@github.com:ruenzuo-pods-mirror/Specs.git
+  source_push_url: git@github.com:ruenzuo-pods-mirror
+  source_clone_url: git://github.com/ruenzuo-pods-mirror
+  github:
+    acccess_token: <%= ENV['ACCESS_TOKEN'] %>
+    organisation: ruenzuo-pods-mirror
+    endpoint: https://api.github.com
+podfiles:
+  - "https://raw.githubusercontent.com/Ruenzuo/special-lamp/master/Podfile.lock"
