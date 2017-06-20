@@ -6,4 +6,6 @@ deployment:
   master:
     branch: master
     commands:
+      - git config --global user.email "renzo.crisostomomedina@here.com"
+      - git config --global user.name "Renzo Crisostomo"
       - ./sync

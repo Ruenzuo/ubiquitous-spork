@@ -2,9 +2,9 @@
 ---
 master_repo: https://github.com/CocoaPods/Specs.git
 mirror:
-  specs_push_url: git@github.com:ruenzuo-pods-mirror/Specs.git
-  source_push_url: git@github.com:ruenzuo-pods-mirror
-  source_clone_url: git://github.com/ruenzuo-pods-mirror
+  specs_push_url: https://Ruenzuo:<%= ENV['PASSWORD'] %>@github.com/ruenzuo-pods-mirror/Specs.git
+  source_push_url: https://Ruenzuo:<%= ENV['PASSWORD'] %>@github.com/ruenzuo-pods-mirror
+  source_clone_url: https://Ruenzuo:<%= ENV['PASSWORD'] %>@github.com/ruenzuo-pods-mirror
   github:
     acccess_token: <%= ENV['ACCESS_TOKEN'] %>
     organisation: ruenzuo-pods-mirror
