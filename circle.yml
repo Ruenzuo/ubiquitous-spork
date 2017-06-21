@@ -2,6 +2,10 @@ dependencies:
   override:
     - bundle install
 
+test:
+  override:
+    - "true"
+
 deployment:
   master:
     branch: master
